@@ -2,7 +2,7 @@
 
     Object::Object()
     {
-        SetPosition(new Position{0, 0, Top});
+        SetPosition(new Position(0, 0, Direction::Top));
     }
 
     void Object::SetPosition(Position *position)
