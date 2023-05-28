@@ -1,3 +1,4 @@
+#pragma once
 #include "..\Enums\Enums.hpp"
 
 using namespace std;

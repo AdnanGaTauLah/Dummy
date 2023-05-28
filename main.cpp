@@ -1,6 +1,4 @@
-#pragma once
-
-#include "..\Position\Position.cpp"
+#include "Position\Position.cpp"
 #include "Factory\ControllableFactory.cpp"
 #include "ControllableObject\ControllableRabbids.cpp"
 #include <iostream>

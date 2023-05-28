@@ -2,7 +2,7 @@
 
     ControllableObject::ControllableObject()
     {
-        SetPosition(new Position{0, 0, Top});
+        SetPosition(new Position(0, 0, Direction::Bottom));
     }
 
     void ControllableObject::TurnRight(Position *position)
