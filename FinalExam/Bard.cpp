@@ -27,7 +27,7 @@ public:
 private:
     void attack()
     {
-        // Do something to attack an enemy.
+        cout << "Serang!!\n";
     }
 
     void move()
@@ -54,7 +54,7 @@ public:
 private:
     void takeDamage()
     {
-        // Reduce the enemy's health.
+        cout << "Diserang!!\n";
     }
 
     void chasePlayer()
@@ -70,6 +70,7 @@ int main()
     Enemy enemy;
 
     mediator->notify("attack", "enemy");
+    enemy.notify("attack", "mediator");
 
     return 0;
 }
